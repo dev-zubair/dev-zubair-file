@@ -1,0 +1,80 @@
+body{
+    font-family: 'Comic Neue', cursive;
+    margin: 0 auto;
+}
+h1{
+    font-size: 50px;
+}
+.name-span{
+    color: #3A98F7;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3em;
+    text-align: justify;
+}
+.flexiable-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    margin: 0 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.button-link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.dream-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exper-sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exper-sec h1{
+    margin-left: 5%;
+}
+#box-design1{
+    box-shadow: 10px 10px 40px grey;
+    padding: 25px;
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+#box-design2{
+    box-shadow: 10px 10px 40px grey;
+    padding: 25px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+h2{
+    font-size: 40px;
+}
+h4{
+    font-size: 20px;
+    color: orange;
+}
+footer p{
+    text-align: center;
+}
