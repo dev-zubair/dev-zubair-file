@@ -2,6 +2,11 @@ body{
     font-family: 'Comic Neue', cursive;
     margin: 0 auto;
 }
+.logo{
+    background-color: #5930A5;
+    margin-bottom: 0px;
+    text-align: center;
+}
 h1{
     font-size: 50px;
 }
@@ -19,7 +24,7 @@ p{
 }
 .flexiable-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -27,6 +32,9 @@ p{
 }
 .half-width img{
     width: 90%;
+}
+.top-h{
+    margin-top: 50px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -76,5 +84,31 @@ h4{
     color: orange;
 }
 footer p{
+    text-align: center;
+}
+.one-third{
+    width: 25%;
+    margin-left: 5%;
+}
+.one-third img{
+    width: 100%;
+    border-radius: 50%;
+    background-color: blue;
+    box-shadow: 10px 20px 40px white
+}
+.my-dev{
+    color: white;
+    margin-left: 15%;
+}
+.degig{
+    color: #08f53b;
+    margin-left: 25%;
+}
+.my-work{
+    background-color: black;
+    padding: 20px;
+}
+.my-work h1{
+    color: white;
     text-align: center;
 }
