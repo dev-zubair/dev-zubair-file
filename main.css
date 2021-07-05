@@ -51,6 +51,10 @@ p{
     padding: 10px 40px;
     border-radius: 5px;
 }
+a:hover{
+    background-color: #41BB08;
+    color: black;
+}
 .dream-bg{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
